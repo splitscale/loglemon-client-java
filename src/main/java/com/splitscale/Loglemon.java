@@ -14,7 +14,9 @@ public class Loglemon {
 
   private static final String url = "http://splitscale.systems:8081/logs";
 
-  public static void sendLog(String log) {
+  public static void sendLog(String source, String message) {
+    String log = String.format("[%s] [%s] %s", "Loglemon", source, message);
+
     try {
       URL endpointUrl = new URL(url);
       URLConnection connection = endpointUrl.openConnection();
