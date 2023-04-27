@@ -1,7 +1,5 @@
 package com.splitscale;
 
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 
 /**
@@ -13,6 +11,6 @@ public class AppTest {
    */
   @Test
   public void shouldAnswerWithTrue() {
-    LogSender.sendLog("testing");
+    Loglemon.sendLog("testing");
   }
 }

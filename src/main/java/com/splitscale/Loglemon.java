@@ -6,9 +6,9 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.nio.charset.StandardCharsets;
 
-public class LogSender {
+public class Loglemon {
 
-  private LogSender() {
+  private Loglemon() {
     // default constructor
   }
 
