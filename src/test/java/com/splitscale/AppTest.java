@@ -11,6 +11,6 @@ public class AppTest {
    */
   @Test
   public void shouldAnswerWithTrue() {
-    Loglemon.sendLog("Log test", "testing message");
+    Loglemon.sendLog("testing message");
   }
 }
