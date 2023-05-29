@@ -5,25 +5,25 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.splitscale</groupId>
-  <artifactId>loglemon-client-java</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>loglemon4j</artifactId>
+  <version>1.0</version>
 
-  <name>loglemon-client-java</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub splitscale Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/splitscale/loglemon4j</url>
+    </repository>
+  </distributionManagement>
+
+  <name>loglemon4j</name>
+  <url>http://splitscale.systems</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
-
-  <distributionManagement>
-    <repository>
-      <id>central</id>
-      <url>https://repo.maven.apache.org/maven2</url>
-    </repository>
-  </distributionManagement>
 
 
   <dependencies>
